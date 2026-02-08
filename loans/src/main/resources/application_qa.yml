@@ -1,16 +1,18 @@
-spring:
-  config:
-    activate:
-      on-profile: "qa"
+# COMMANDED ALL THE PROPERTIES AS WE ARE GOING TO MOVE FROM LOCAL PROFILES TO CLOUD CONFIG PROFILES
 
-build:
-  version: "2.0"
-
-loans:
-  message: "Welcome to HansBank loans related QA APIs "
-  contactDetails:
-    name: "Cyrano Marita - QA Lead"
-    email: "cyrano@eazybank.com"
-  onCallSupport:
-    - (785) 545-6565
-    - (853) 546-3467
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+#
+#build:
+#  version: "2.0"
+#
+#loans:
+#  message: "Welcome to HansBank loans related QA APIs "
+#  contactDetails:
+#    name: "Cyrano Marita - QA Lead"
+#    email: "cyrano@eazybank.com"
+#  onCallSupport:
+#    - (785) 545-6565
+#    - (853) 546-3467

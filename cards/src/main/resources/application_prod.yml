@@ -1,15 +1,17 @@
-spring:
-  config:
-    activate:
-      on-profile: "prod"
-build:
-  version: "1.0"
+# COMMANDED ALL THE PROPERTIES AS WE ARE GOING TO MOVE FROM LOCAL PROFILES TO CLOUD CONFIG PROFILES
 
-cards:
-  message: "Welcome to HansBank cards related prod APIs "
-  contactDetails:
-    name: "Sandra Harald - Product Owner"
-    email: "sandra@eazybank.com"
-  onCallSupport:
-    - (617) 432-2356
-    - (936) 564-8721
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+#build:
+#  version: "1.0"
+#
+#cards:
+#  message: "Welcome to HansBank cards related prod APIs "
+#  contactDetails:
+#    name: "Sandra Harald - Product Owner"
+#    email: "sandra@eazybank.com"
+#  onCallSupport:
+#    - (617) 432-2356
+#    - (936) 564-8721

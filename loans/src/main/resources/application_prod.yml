@@ -1,16 +1,19 @@
-spring:
-  config:
-    activate:
-      on-profile: "prod"
+# COMMANDED ALL THE PROPERTIES AS WE ARE GOING TO MOVE FROM LOCAL PROFILES TO CLOUD CONFIG PROFILES
 
-build:
-  version: "1.0"
 
-loans:
-  message: "Welcome to HansBank loans related prod APIs "
-  contactDetails:
-    name: "Pelias Sudhir - Product Owner"
-    email: "pelias@eazybank.com"
-  onCallSupport:
-    - (723) 656-8709
-    - (156) 342-0956
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+#
+#build:
+#  version: "1.0"
+#
+#loans:
+#  message: "Welcome to HansBank loans related prod APIs "
+#  contactDetails:
+#    name: "Pelias Sudhir - Product Owner"
+#    email: "pelias@eazybank.com"
+#  onCallSupport:
+#    - (723) 656-8709
+#    - (156) 342-0956

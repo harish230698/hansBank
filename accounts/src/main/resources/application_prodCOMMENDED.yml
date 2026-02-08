@@ -1,4 +1,6 @@
+
 # COMMANDED ALL THE PROPERTIES AS WE ARE GOING TO MOVE FROM LOCAL PROFILES TO CLOUD CONFIG PROFILES
+
 
 
 #spring:
@@ -9,11 +11,11 @@
 #build:
 #  version: "1.0"
 #
-#loans:
-#  message: "Welcome to HansBank loans related prod APIs "
+#accounts:
+#  message: "Welcome to EazyBank accounts related prod APIs "
 #  contactDetails:
-#    name: "Pelias Sudhir - Product Owner"
-#    email: "pelias@eazybank.com"
+#    name: "Reine Aishwarya - Product Owner"
+#    email: "aishwarya@eazybank.com"
 #  onCallSupport:
-#    - (723) 656-8709
-#    - (156) 342-0956
+#    - (453) 392-4829
+#    - (236) 203-0384

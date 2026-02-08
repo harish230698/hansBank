@@ -8,11 +8,11 @@
 #build:
 #  version: "2.0"
 #
-#loans:
-#  message: "Welcome to HansBank loans related QA APIs "
+#accounts:
+#  message: "Welcome to HansBank accounts related QA APIs "
 #  contactDetails:
-#    name: "Cyrano Marita - QA Lead"
-#    email: "cyrano@eazybank.com"
+#    name: "Smitha Ray - QA Lead"
+#    email: "smitha@eazybank.com"
 #  onCallSupport:
-#    - (785) 545-6565
-#    - (853) 546-3467
+#    - (666) 265-3765
+#    - (666) 734-8371

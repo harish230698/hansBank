@@ -1,16 +1,19 @@
-spring:
-  config:
-    activate:
-      on-profile: "qa"
+# COMMANDED ALL THE PROPERTIES AS WE ARE GOING TO MOVE FROM LOCAL PROFILES TO CLOUD CONFIG PROFILES
 
-build:
-  version: "2.0"
 
-cards:
-  message: "Welcome to HansBank cards related QA APIs "
-  contactDetails:
-    name: "Cherryl Pankaj - QA Lead"
-    email: "cherryl@eazybank.com"
-  onCallSupport:
-    - (310) 875-4367
-    - (201) 236-1267
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+#
+#build:
+#  version: "2.0"
+#
+#cards:
+#  message: "Welcome to HansBank cards related QA APIs "
+#  contactDetails:
+#    name: "Cherryl Pankaj - QA Lead"
+#    email: "cherryl@eazybank.com"
+#  onCallSupport:
+#    - (310) 875-4367
+#    - (201) 236-1267
