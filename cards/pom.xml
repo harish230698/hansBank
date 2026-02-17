@@ -149,7 +149,7 @@
                 <version>3.5.1</version>
                 <configuration>
                     <to>
-                        <image>harishhans/${project.artifactId}:s4</image>
+                        <image>harishhans/${project.artifactId}:s6</image>
                     </to>
                 </configuration>
             </plugin>
