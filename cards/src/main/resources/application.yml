@@ -5,22 +5,22 @@ spring:
     name: "cards"
   profiles:
     active: "qa"
-  datasource:
-    url: jdbc:mysql://localhost:3308/cardsdb
-    username: root
-    password: root
+#  datasource:
+#    url: jdbc:mysql://localhost:3308/cardsdb
+#    username: root
+#    password: root
 
-    #  h2:
-    #    console:
-    #      enabled: true
+  h2:
+    console:
+    enabled: true
   jpa:
-      #    database-platform: org.hibernate.dialect.H2Dialect
-      #    hibernate:
-      #      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+    ddl-auto: update
     show-sql: true
-  sql:
-    init:
-      mode: always
+#  sql:
+#    init:
+#      mode: always
   config:
     import: "optional:configserver:http://localhost:8071/"
 #  rabbitmq:

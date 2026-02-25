@@ -5,6 +5,19 @@ services:
     networks:
       - hansbank
 
+  microservice-db-config:
+    extends:
+      service: "network-deploy-service"
+    image: mysql
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      interval: 10s
+      start_interval: 10s
+      retries: 10
+      timeout: 10s
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
   microservice-base-config:
     extends:
       service : "network-deploy-service"
@@ -17,7 +30,6 @@ services:
 
   microservice-configserver-config:
     extends:
-
       service: "microservice-base-config"
     environment:
       SPRING_CONFIG_IMPORT: "configserver:http://configserver:8071/"
