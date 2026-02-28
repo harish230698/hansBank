@@ -48,5 +48,5 @@ public class CustomerDetailsDto {
     @Schema(
             description = "Loans details of the Customer"
     )
-    private LoansDto loansDtoDto;
+    private LoansDto loansDto;
 }
