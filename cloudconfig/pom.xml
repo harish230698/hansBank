@@ -78,7 +78,7 @@
 				<version>3.5.1</version>
 				<configuration>
 					<to>
-						<image>harishhans/${project.artifactId}:s7</image>
+						<image>harishhans/${project.artifactId}:s8</image>
 					</to>
 				</configuration>
 			</plugin>

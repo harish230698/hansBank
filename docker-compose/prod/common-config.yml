@@ -5,18 +5,18 @@ services:
     networks:
       - hansbank
 
-  microservice-db-config:
-    extends:
-      service: "network-deploy-service"
-    image: mysql
-    healthcheck:
-      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
-      interval: 10s
-      start_interval: 10s
-      retries: 10
-      timeout: 10s
-    environment:
-      MYSQL_ROOT_PASSWORD: root
+  #  microservice-db-config:
+  #    extends:
+  #      service: "network-deploy-service"
+  #    image: mysql
+  #    healthcheck:
+  #      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+  #      timeout: 10s
+  #      retries: 10
+  #      interval: 10s
+  #      start_period: 10s
+  #    environment:
+  #      MYSQL_ROOT_PASSWORD: root
 
   microservice-base-config:
     extends:
@@ -31,6 +31,16 @@ services:
   microservice-configserver-config:
     extends:
       service: "microservice-base-config"
+    depends_on:
+      configserver:
+        condition: service_healthy
     environment:
       SPRING_CONFIG_IMPORT: "configserver:http://configserver:8071/"
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka/
       SPRING_PROFILES_ACTIVE: prod
+
+  microservice-eureka-config:
+    extends:
+      service: microservice-configserver-config
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka/
