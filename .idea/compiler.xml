@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gatewayserver" />
         <module name="cloudconfig" />
         <module name="eureka" />
       </profile>
@@ -30,6 +31,7 @@
       <module name="cards" options="-parameters" />
       <module name="cloudconfig" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="gatewayserver" options="-parameters" />
       <module name="loans" options="-parameters" />
     </option>
   </component>
