@@ -1,4 +1,4 @@
-package com.eazybytes.cards;
+package com.hans.cards;
 
 import com.hans.cards.dto.CardsContactInfoDto;
 import io.swagger.v3.oas.annotations.ExternalDocumentation;

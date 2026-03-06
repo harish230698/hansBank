@@ -1,4 +1,4 @@
-package com.eazybytes.cards.audit;
+package com.hans.cards.audit;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;

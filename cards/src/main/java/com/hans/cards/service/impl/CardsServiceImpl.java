@@ -1,13 +1,13 @@
-package com.eazybytes.cards.service.impl;
+package com.hans.cards.service.impl;
 
-import com.eazybytes.cards.constants.CardsConstants;
-import com.eazybytes.cards.dto.CardsDto;
-import com.eazybytes.cards.entity.Cards;
-import com.eazybytes.cards.exception.CardAlreadyExistsException;
-import com.eazybytes.cards.exception.ResourceNotFoundException;
-import com.eazybytes.cards.mapper.CardsMapper;
-import com.eazybytes.cards.repository.CardsRepository;
-import com.eazybytes.cards.service.ICardsService;
+import com.hans.cards.constants.CardsConstants;
+import com.hans.cards.dto.CardsDto;
+import com.hans.cards.entity.Cards;
+import com.hans.cards.exception.CardAlreadyExistsException;
+import com.hans.cards.exception.ResourceNotFoundException;
+import com.hans.cards.mapper.CardsMapper;
+import com.hans.cards.repository.CardsRepository;
+import com.hans.cards.service.ICardsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

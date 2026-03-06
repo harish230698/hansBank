@@ -9,7 +9,7 @@ spring:
         webflux:
           discovery:
             locator:
-              enabled: true
+              enabled: false
               lowercaseserviceid: true
 
 management:
@@ -30,3 +30,10 @@ info:
     name: "gatewayserver"
     description: "Hans Bank gatewayserver Application"
     version: "1.0.0"
+
+
+logging:
+  level:
+    com:
+      hans:
+        gatewayserver: DEBUG
